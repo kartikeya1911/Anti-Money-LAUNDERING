@@ -9,6 +9,14 @@ import warnings
 import io
 
 warnings.filterwarnings("ignore")
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+# Suppress Streamlit's noisy use_container_width deprecation warning
+try:
+    import streamlit.errors
+    warnings.filterwarnings("ignore", category=streamlit.errors.StreamlitAPIWarning)
+except Exception:
+    pass
+
 
 import streamlit as st
 import pandas as pd
