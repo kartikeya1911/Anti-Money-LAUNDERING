@@ -1,8 +1,0 @@
-Feature scaling and EDA: done in Cells 2 and 6.
-K-Means segmentation: done in Cell 3.
-Isolation Forest outlier detection: done in Cell 5.
-Cross-validation between methods: done in Cell 8 (accounts flagged by both approaches).
-Top 5 flagged accounts with justification: done in Cell 8.
-Risk scoring formula combining cluster behavior and anomaly score: done in Cell 7.
-SAR template filled for one flagged account: done in Cell 9.
-Presentation talking points (why unsupervised AML, legal obligation, reducing false positives): included in Cell 9.
