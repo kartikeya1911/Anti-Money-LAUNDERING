@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────────
+#  PROJECT 9 — AML Pattern Detection System
+#  Requirements
+#  Install: pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────
+
+# Core data science
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+
+# Visualisation
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Streamlit dashboard
+streamlit==1.56.0
+pillow==12.2.0
+
+# PDF report generation
+fpdf==1.7.2
